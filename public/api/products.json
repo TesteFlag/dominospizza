@@ -1,0 +1,98 @@
+[
+    {
+        "category_id": 1,
+        "category":"Clássicas",
+        "products": [
+            {
+                "product_id": 1,
+                "name": "Pizza Fiambre",
+                "ingredients": [
+                    "Molho Domino's",
+                    "Queijo Mozzarella",
+                    "Fiambre"
+                ],
+                "price": 13.95,
+                "image": "https://cache.dominos.com/wam/prod/market/PT/_pt/images/promo/4d20f85d-1104-4fb7-a498-c4429916542c.jpg"
+            },
+            {
+                "product_id": 2,
+                "name": "Funghi",
+                "ingredients": [
+                    "Molho Domino's",
+                    "Queijo Mozzarella",
+                    "Cogumelos Frescos"
+                ],
+                "price": 13.95,
+                "image": "https://cache.dominos.com/wam/prod/market/PT/_pt/images/promo/aa77fa04-659b-49a7-b2c4-8ddf9fb1cec0.jpg"
+            }
+        ]
+    },
+    {
+        "category_id": 2,
+        "category": "Favoritas",
+        "products": [
+            {
+                "product_id": 3,
+                "name": "Fans de Pepperoni",
+                "ingredients": [
+                    "Molho Domino's",
+                    "Queijo Mozzarella",
+                    "Pepperoni"
+                ],
+                "price": 15.95,
+                "image": "https://cache.dominos.com/wam/prod/market/PT/_pt/images/promo/3ecb6d16-11de-4b27-93bb-adfa7078f85c.jpg"
+            },
+            {
+                "product_id": 4,
+                "name": "Carbonara",
+                "ingredients": [
+                    "Molho de Natas",
+                    "Queijo Mozzarella",
+                    "Frango Grelhado",
+                    "Bacon",
+                    "Cebola Roxa"
+                ],
+                "price": 15.95,
+                "image": "https://cache.dominos.com/wam/prod/market/PT/_pt/images/promo/e3426b28-98a1-48c5-a3fb-752a1e884fca.jpg"
+            }
+        ]
+    },
+    {
+        "category_id": 3,
+        "category": "Premium",
+        "products": [
+            {
+                "product_id": 5,
+                "name": "Extravaganzza",
+                "ingredients": [
+                    "Molho Domino's",
+                    "Queijo Mozzarella",
+                    "Pepperoni",
+                    "Fiambre",
+                    "Carne Vaca",
+                    "Carne de Porco",
+                    "Pimentos Verdes",
+                    "Cebola Roxa",
+                    "Azeitonas",
+                    "Cogumelos Frescos"
+                ],
+                "price": 17.95,
+                "image": "https://cache.dominos.com/wam/prod/market/PT/_pt/images/promo/d2f3fa60-534b-467a-8774-cfb6db0d4d3f.jpg"
+            },
+            {
+                "product_id": 6,
+                "name": "Campestre",
+                "ingredients": [
+                    "Molho BBQ Base",
+                    "Queijo Mozzarella",
+                    "Frango Grelhado",
+                    "Bacon",
+                    "Cebola Roxa",
+                    "Milho Doce"
+                ],
+                "price": 17.95,
+                "image": "https://cache.dominos.com/wam/prod/market/PT/_pt/images/promo/0ed3e76c-95cd-4b7d-90d0-5010a4b16791.jpg"
+            }
+        ]
+    }
+]
