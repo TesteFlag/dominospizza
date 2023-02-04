@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-export default function Highlights() {
+export default function Highlights(props) {
 
     const [highlights, setHighlights] = useState([]);
 
@@ -18,7 +18,7 @@ export default function Highlights() {
                 {
                     highlights.map((highlight, index) => (
                         <li key={index}>
-                            <a href={ highlight.url }>
+                            <a href={ highlight.url } onClick={ event => { event.preventDefault(); props.toggleProducts(true); }}>
                                 <img src={ highlight.image } alt={ highlight.description } />
                             </a>
                         </li>

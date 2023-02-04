@@ -6,12 +6,12 @@ import Products from './components/Products';
 
 function App() {
 
-  const [showProducts, setShowProducts] = useState(true);
+  const [showProducts, setShowProducts] = useState(false);
 
   return (
     <div className="App">
-      <Navbar />
-      {!showProducts && <Highlights />}
+      <Navbar toggleProducts={ setShowProducts } />
+      {!showProducts && <Highlights toggleProducts={ setShowProducts } />}
       {showProducts && <Products />}
     </div>
   );
