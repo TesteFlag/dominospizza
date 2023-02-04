@@ -1,6 +1,9 @@
 import { useEffect, useState } from "react";
 
-export default function Products() {
+export default function Products(props) {
+
+    const { addToCart } = props;
+
     const [products, setProducts] = useState([]);
 
     useEffect(() => {
@@ -24,7 +27,7 @@ export default function Products() {
                                     <div key={ product.product_id }>
                                         <div>
                                             <img src={ product.image } alt="" />
-                                            <button type="button">Encomende Agora</button>
+                                            <button type="button" onClick={ () => addToCart(product) }>Encomende Agora</button>
                                         </div>
                                         <h3>{ product.name }</h3>
                                         <ul>

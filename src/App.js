@@ -8,11 +8,23 @@ function App() {
 
   const [showProducts, setShowProducts] = useState(false);
 
+  const [cart, setCart] = useState([]);
+
+  function addToCart(product) {
+
+    setCart( currentCart => {
+      const cartCopy = [...currentCart];
+      cartCopy.push(product);
+      return cartCopy;
+    } );
+
+  }
+
   return (
     <div className="App">
-      <Navbar toggleProducts={ setShowProducts } />
+      <Navbar toggleProducts={ setShowProducts } cart={ cart } />
       {!showProducts && <Highlights toggleProducts={ setShowProducts } />}
-      {showProducts && <Products />}
+      {showProducts && <Products addToCart={ addToCart } />}
     </div>
   );
 }
